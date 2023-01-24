@@ -200,6 +200,12 @@ nav a {
   border-radius: 15px;
 }
 
+.sobre {
+  max-width: 70%;
+  margin: 20px;
+  padding: 5px;
+}
+
 
 footer {
   display: table-column;
