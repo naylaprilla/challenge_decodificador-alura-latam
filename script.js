@@ -46,28 +46,3 @@ btnCripto.onclick = criptografar
 btnDescrip.onclick = desenCriptar
 btnCopiar.onclick = copiar
 
-
-// troca de imagem por texto ao clicar no botao de encript
-
-/*btnCripto.addEventListener("click", function() {
-  var x = document.getElementById("saida-texto")
-  if(x.style.display === 'none') {
-    x.style.display = 'block'
-  } else {
-    x.style.display = 'none'
-  }
-})    
-    resultCripto.innerHTML = textoEncriptado()
-    document.getElementById("saida-texto").style.display = "none"
-*/
-
-
-/*var capturando = " ";
-
-function capturar(){
-
-capturando = document.getElementById("valor").value;
-document.getElementById("").innerText = capturando
-}
-*/
-
