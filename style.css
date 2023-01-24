@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,400;0,500;1,400;1,500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: none;
+  font-family: 'Roboto Mono', monospace;
+}
+
+body {
+  background: #f5f0f0;
+  color: #000000;
+  min-height: 100%;
+
+}
+
+.container {
+  margin-top: 10px;
+  margin-left: 20%;
+
+}
+
+.cabeçalho {
+  background-color: black;
+  color: white;
+  position: relative;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.imagemlogo {
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+nav {
+  position: absolute;
+  top: 110px;
+  right: 50px;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+#texto-imagem {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 0 0 4%;
+  align-items: center;
+
+}
+
+#entrada {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    padding: 5px 5px 5px 5px;  
+}
+
+
+.entrada-texto {
+    width: 400px;
+    height: 400px;
+    font-size: 15px;
+    color:#000000;
+    background: white;
+    box-shadow: none;
+    border: none;
+    border-radius: 15px;
+    resize: none;
+    outline: 0;
+    padding: 10px;
+    text-transform: uppercase;
+
+}
+
+#saida-texto {
+  margin-right: 30%;
+  width: 400px;
+  height: 400px;
+  font-size: 20px;
+  color:#000000;
+  background: white;
+  box-shadow: none;
+  border: none;
+  border-radius: 15px;
+  resize: none;
+  outline: 0;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+.bnt-criptografar {
+  padding: 10px;
+  background: #000000;
+  color: #f5f0f0;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.bnt-descriptografar {
+  padding: 10px;
+  background: #000000;
+  color: #f5f0f0;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.btn-copiar {
+  margin-left: 10px;
+  padding: 10px;
+  background: #000000;
+  color: #f5f0f0;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+#output-texto {
+  text-align: justify;
+  font-size: 20px;
+  padding: 5px 5px 5px 5px;
+}
+
+.agente-coelho {
+  width: 420px;
+}
+
+.apagador {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #000000;
+  
+  font-size: 20px;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+#apaga {
+  color: #ffffff;
+}
+
+.container-floquinho {
+  margin: 10px;
+  padding: 10px;
+  
+
+}
+.floquinho {
+  width: 600px; 
+}
+
+
+footer {
+  display: table-column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  line-height: center;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  filter: invert(100%)
+
+}
+
+.contato {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+}

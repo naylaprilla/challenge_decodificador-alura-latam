@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador - Pets Agency</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>    
+    <header class="cabeçalho">
+        <h1><img class="imagemlogo" src="Imagens/logo_branco.png" alt="Logo Pets Agency"></h1>
+
+        <nav>
+            <ul>
+                <li><a href="decodificador.html">Decodificador</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container"> 
+        <h2>Máquina de Mensagens Decodificadas</h2>
+        <p>Agora você pode ajudar o agente Floquinho e a agência de Pets Secretos a proteger o mundo.</p>
+                
+            <div id="texto-imagem">
+                <div class="entrada-texto">
+                    <textarea id="entrada" type="text" placeholder="Digite aqui a sua mensagem secreta..." cols="30" rows="15" autofocus></textarea> 
+                </div>
+        
+                <div id="saida-texto">
+                    <img src="Imagens/Agente Coelho 02.png" class="agente-coelho" alt="Desenho de uma pessoa procurando palavras">
+                    <!--<p>Prontinho! Agora o seu segredo está seguro. Bom trabalho!</p> span-->
+                </div>
+            </div>
+    
+
+                <div class="buttons">
+                    <div class="btn-container">
+                        <button onclick="criptografar()" type="submit" class="bnt-criptografar" >Criptografar</button>
+                        <button onclick="descriptografar()" type="submit" class="bnt-descriptografar">Descriptografar</button>
+                        
+                    </div>
+                </div> 
+                
+                <div class="feito">
+                    <button class="apagador"><a id="apaga" href="apagador.html">Clique aqui quando terminar</a></button>
+                </div>
+            
+    </main>
+
+    <footer>
+        <p class="contato">Contatos:</p>
+        <a href="https://github.com/naylaprilla" target="_blank">Github</a>
+        <a href="https://www.linkedin.com/in/naylaprilla/" target="_blank">linkedIn</a>
+        <a href="https://www.instagram.com/prillanart/" target="_blank">Instagram</a>
+        <a href="https://www.behance.net/prillanart" target="_blank">Behance</a>
+        <p class="copyright">&copy; Nayla Prilla 2022</p>
+
+    </footer>
+
+    
+</body>
+    <script src="script.js"></script>
+
+</html>
