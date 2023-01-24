@@ -166,6 +166,40 @@ nav a {
   width: 600px; 
 }
 
+.titulo-contato {
+  margin: 20px;
+  margin-left: 40px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+}
+
+.entrada-formulario {
+  width: 50%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.texto-servico {
+  width: 50%;
+  padding: 40px;
+  margin: 10px;
+}
+
+.button-sumit {
+  width: 300px;
+  height: 50px;
+  margin: 20px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
 
 footer {
   display: table-column;
@@ -182,15 +216,6 @@ footer {
   padding: 10px;
   text-decoration: none;
   color: white;
-}
-
-.icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 30px;
-  filter: invert(100%)
-
 }
 
 .contato {
