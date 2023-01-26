@@ -55,6 +55,16 @@ nav a {
   text-decoration: none;
 }
 
+.titulo-index{
+  margin: 30px;
+  padding: 5px;
+}
+
+.texto-index{
+    margin: 30px;
+    padding: 5px;
+}
+
 #texto-imagem {
   display: flex;
   justify-content: space-between;
