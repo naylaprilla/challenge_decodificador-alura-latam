@@ -2,7 +2,7 @@
 
 A minha ideia foi juntar tudo o que aprendi até o momento.
 Então, pensei em criar uma página institucional e como o desafio era um decodificador, 
-isso me remeteu a agentes secretos e como sou criativa meus agentes secretos seriam pets.
+isso me remeteu a agentes secretos. Deixei a criatividade tomar conta e decidi que meus agentes secretos seriam pets.
 Com isso em mente, criei esse rascunho no figma para definir um design para essa agnecia de pets secretos. 
 https://www.figma.com/file/EU3xNXQnXwAdLln72R37Ds/Agencia-de-Pets-secretos?node-id=0%3A1
 
