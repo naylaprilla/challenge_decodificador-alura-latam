@@ -1,4 +1,4 @@
-O desafio era criar um Codificador e Decodificador de textos utilizando Html5, CSS3 e JavaScript
+##O desafio era criar um Codificador e Decodificador de textos utilizando Html5, CSS3 e JavaScript
 
 A minha ideia foi juntar tudo o que aprendi até o momento.
 Então, pensei em criar uma página institucional e como o desafio era um decodificador, 
